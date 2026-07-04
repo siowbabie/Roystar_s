@@ -4,6 +4,12 @@ Course: Ecommerce
 
 Chau ChanRanksey, a student of National University of Management, Faculty of Digital Economy, Under Mentorship of Prof. Daiyon Cho
 
+Live Website
+https://roystar-s-jc9i.vercel.app
+
+GitHub Repository
+https://github.com/siowbabie/Roystar_s
+
 # Roystar Music Store
 
 Roystar Music Store is a premium, fully-functional e-commerce web application dedicated to showcasing and selling handcrafted acoustic and classical musical instruments. Roystar is positioned as the official authorized distributor of Yamaha instruments in Cambodia.
