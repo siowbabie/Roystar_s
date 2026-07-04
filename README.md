@@ -1,9 +1,8 @@
 # Roystar Cambodia
 
 Course: Ecommerce
-Student: Chau ChanRanksey
-University: National University of Management, Faculty of Digital Economy
-Cohort 5 Semester 6
+
+Chau ChanRanksey, a student of National University of Management, Faculty of Digital Economy, Under Mentorship of Prof. Daiyon Cho
 
 # Roystar Music Store
 
