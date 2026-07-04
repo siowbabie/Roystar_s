@@ -90,7 +90,7 @@ export default function CartDrawer() {
               </div>
               <p className="text-lg font-semibold text-neutral-900">Your cart is empty</p>
               <p className="text-sm text-neutral-500 max-w-[250px] leading-relaxed">
-                Looks like you haven't added any instruments to your cart yet.
+                Looks like you haven&apos;t added any instruments to your cart yet.
               </p>
               <button
                 onClick={() => setIsOpen(false)}

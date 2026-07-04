@@ -148,7 +148,7 @@ export default function FeaturedProducts() {
         {!loading && !error && products.length === 0 && (
           <div className="flex flex-col items-center gap-3 py-16 text-center">
             <p className="text-neutral-500 font-medium">No featured products found.</p>
-            <p className="text-sm text-neutral-400">Check back soon — we're adding new instruments.</p>
+            <p className="text-sm text-neutral-400">Check back soon — we&apos;re adding new instruments.</p>
           </div>
         )}
 

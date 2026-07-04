@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 
 export default function CheckoutPage() {
   const router = useRouter();
-  const { items, getCartTotal, getCartCount, clearCart } = useCartStore();
+  const { items, getCartTotal, clearCart } = useCartStore();
   const [isMounted, setIsMounted] = useState(false);
 
   // Form states
@@ -41,7 +41,6 @@ export default function CheckoutPage() {
   }
 
   const cartTotal = getCartTotal();
-  const cartCount = getCartCount();
   const shippingFee = cartTotal > 2000 ? 0 : 150;
   const orderTotal = cartTotal + shippingFee;
 
@@ -103,9 +102,10 @@ export default function CheckoutPage() {
       // 4. Clear cart & redirect
       clearCart();
       router.push(`/orders/success?id=${orderId}`);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Checkout error:', err);
-      setError(err.message || 'Something went wrong during checkout. Please try again.');
+      const errorMessage = err instanceof Error ? err.message : 'Something went wrong during checkout. Please try again.';
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }
@@ -121,7 +121,7 @@ export default function CheckoutPage() {
           </div>
           <h2 className="text-2xl font-bold text-neutral-900 mb-2">Checkout Empty</h2>
           <p className="text-neutral-500 max-w-md mb-8">
-            You don't have any items in your cart to checkout.
+            You don&apos;t have any items in your cart to checkout.
           </p>
           <Link href="/products" className="btn-primary">
             Browse Instruments

@@ -216,7 +216,7 @@ export default function ProductsPage() {
                 </div>
                 <h3 className="text-xl font-bold text-neutral-900 mb-2">No instruments found</h3>
                 <p className="text-neutral-500 max-w-md">
-                  We couldn't find anything matching your current filters. Try adjusting your search term or clearing the selected categories.
+                  We couldn&apos;t find anything matching your current filters. Try adjusting your search term or clearing the selected categories.
                 </p>
                 <button
                   onClick={() => {

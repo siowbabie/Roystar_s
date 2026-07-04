@@ -77,7 +77,7 @@ export default function CartPage() {
             </div>
             <h2 className="text-2xl font-bold text-neutral-900 mb-2">Your cart is empty</h2>
             <p className="text-neutral-500 max-w-md mx-auto mb-8">
-              Looks like you haven't added any products to your cart yet. Let's head back to our premium collection to find the perfect instrument.
+              Looks like you haven&apos;t added any products to your cart yet. Let&apos;s head back to our premium collection to find the perfect instrument.
             </p>
             <Link href="/products" className="btn-primary">
               Browse Collection
