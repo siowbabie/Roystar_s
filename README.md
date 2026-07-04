@@ -180,21 +180,6 @@ Open [http://localhost:3000](http://localhost:3000) (or the next available port 
 
 ---
 
-## 🖼️ Screenshots
-
-*Placeholders for screenshots representing key aspects of the website:*
-
-1. **Homepage & Hero Highlight**
-   <!-- [Insert Hero Section Screenshot Here] -->
-2. **Product Catalog & Filters**
-   <!-- [Insert Products Page Screenshot Here] -->
-3. **Shopping Drawer & Checkout Form**
-   <!-- [Insert Checkout Page Screenshot Here] -->
-4. **Order Confirmation Receipt**
-   <!-- [Insert Success Page Screenshot Here] -->
-
----
-
 ## 🔮 Future Improvements
 
 - **User Authentication**: Implement email/social authentication so customers can track past orders.
